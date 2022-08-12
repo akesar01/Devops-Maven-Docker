@@ -38,5 +38,6 @@ docker run -d -p 8081:8080 --name mynewcontainer image-name:version    {8080 por
 Check your system IP in browser :
 IP:8081/devops
 
-
+for deleting 
+docker rm -f `docker ps -aq`
 Lab completed**
